@@ -1,8 +1,6 @@
 # prompt
 export PS1="%n@%1~ %# "
 
-# # vi mode
-# bindkey -v
 
 # zsh completion
 autoload -U compinit
@@ -43,3 +41,6 @@ if [ -f '~/google-cloud-sdk/completion.zsh.inc' ]; then . '~/google-cloud-sdk/co
 
 # Rust
 export PATH=$PATH:~/.cargo
+
+# rbenv
+eval "$(rbenv init -)"
